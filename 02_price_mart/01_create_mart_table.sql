@@ -50,6 +50,8 @@ CREATE TABLE IF NOT EXISTS `equity-warehouse-511410.price_mart.mart_price_latest
   ema_50 FLOAT64,
   ema_200 FLOAT64,
   pct_from_sma_200 FLOAT64,
+  sma_200w FLOAT64,
+  ema_200w FLOAT64,
   rsi_14 FLOAT64,
   rel_vol FLOAT64,
   avg_vol_50 FLOAT64,
