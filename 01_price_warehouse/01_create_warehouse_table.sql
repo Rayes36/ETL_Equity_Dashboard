@@ -52,6 +52,7 @@ CREATE TABLE IF NOT EXISTS `equity-warehouse-511410.price_warehouse.fact_securit
   forward_pe FLOAT64,
   eps FLOAT64,
   forward_eps FLOAT64,
+  peg_ratio FLOAT64,
   shares_outstanding INT64,
   PRIMARY KEY (ticker, snapshot_date) NOT ENFORCED,
   FOREIGN KEY (ticker) REFERENCES `equity-warehouse-511410.price_warehouse.dim_security` (ticker) NOT ENFORCED,

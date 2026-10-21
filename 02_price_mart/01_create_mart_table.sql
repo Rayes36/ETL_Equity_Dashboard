@@ -67,5 +67,6 @@ CREATE TABLE IF NOT EXISTS `equity-warehouse-511410.price_mart.mart_price_latest
   forward_pe FLOAT64,
   eps FLOAT64,
   forward_eps FLOAT64,
+  peg_ratio FLOAT64,
   PRIMARY KEY (ticker) NOT ENFORCED
 );
