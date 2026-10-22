@@ -29,7 +29,6 @@ security_snapshot AS(
 )
 SELECT
   si.ticker,
-  CAST(CURRENT_TIMESTAMP() AS DATE) AS as_of_date,
   si.company_name,
   si.exchange,
   si.type,
